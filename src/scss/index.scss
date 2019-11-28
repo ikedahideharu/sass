@@ -1,0 +1,11 @@
+@import "images.scss";
+
+.test{
+  background-image: inline-image("img1.gif");
+  background-size: image-width("img1.gif") image-height("img1.gif");
+  width: 100px;
+}
+
+.aaaaa{
+  width: 100px;
+}
